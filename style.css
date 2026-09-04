@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.clock-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.time-display {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.search-box {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+.divider {
+  font-size: 0.8rem;
+  color: #777;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.dst-badge {
+  display: inline-block;
+  font-size: 0.85rem;
+  padding: 4px 10px;
+  border-radius: 12px;
+  margin: 12px 0;
+  font-weight: bold;
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.dst-active {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.dst-inactive {
+  background-color: #e2e3e5;
+  color: #383d41;
+}

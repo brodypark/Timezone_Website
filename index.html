@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timezone Finder</title>
+  <!-- Link your CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+  <div class="clock-card">
+  <h1>World Clock</h1>
+  
+  <!-- City Quick Search -->
+  <div class="search-box">
+    <label for="city-input">Search by City:</label>
+    <input type="text" id="city-input" placeholder="e.g. Paris, Tokyo, Chicago">
+  </div>
+
+  <div class="divider">OR</div>
+
+  <!-- Timezone Select -->
+  <label for="timezone-select">Select Timezone:</label>
+  <select id="timezone-select"></select>
+
+  <!-- DST Status Badge -->
+  <div id="dst-status" class="dst-badge">Checking DST Status...</div>
+
+  <!-- Clock Display -->
+  <div class="time-display" id="time-display">00:00:00 AM</div>
+</div>
+
+
+
+  <!-- Link your JS file at the bottom of the body -->
+  <script src="script.js"></script>
+</body>
+</html>
